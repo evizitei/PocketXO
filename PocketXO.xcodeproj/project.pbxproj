@@ -15,6 +15,8 @@
 		ED0EC87F1A0428AE0003B691 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0EC87E1A0428AE0003B691 /* Images.xcassets */; };
 		ED0EC8821A0428AE0003B691 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0EC8801A0428AE0003B691 /* LaunchScreen.xib */; };
 		ED0EC88E1A0428AE0003B691 /* PocketXOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0EC88D1A0428AE0003B691 /* PocketXOTests.swift */; };
+		ED0EC8981A042C2C0003B691 /* BoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0EC8971A042C2C0003B691 /* BoardTests.swift */; };
+		ED0EC89A1A0430050003B691 /* XoBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0EC8991A0430050003B691 /* XoBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		ED0EC8871A0428AE0003B691 /* PocketXOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketXOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0EC88C1A0428AE0003B691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED0EC88D1A0428AE0003B691 /* PocketXOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketXOTests.swift; sourceTree = "<group>"; };
+		ED0EC8971A042C2C0003B691 /* BoardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardTests.swift; sourceTree = "<group>"; };
+		ED0EC8991A0430050003B691 /* XoBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XoBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 				ED0EC87E1A0428AE0003B691 /* Images.xcassets */,
 				ED0EC8801A0428AE0003B691 /* LaunchScreen.xib */,
 				ED0EC8711A0428AE0003B691 /* Supporting Files */,
+				ED0EC8991A0430050003B691 /* XoBoard.swift */,
 			);
 			path = PocketXO;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 		ED0EC88A1A0428AE0003B691 /* PocketXOTests */ = {
 			isa = PBXGroup;
 			children = (
+				ED0EC8971A042C2C0003B691 /* BoardTests.swift */,
 				ED0EC88D1A0428AE0003B691 /* PocketXOTests.swift */,
 				ED0EC88B1A0428AE0003B691 /* Supporting Files */,
 			);
@@ -222,6 +228,7 @@
 				ED0EC8781A0428AE0003B691 /* GameScene.swift in Sources */,
 				ED0EC87A1A0428AE0003B691 /* GameViewController.swift in Sources */,
 				ED0EC8741A0428AE0003B691 /* AppDelegate.swift in Sources */,
+				ED0EC89A1A0430050003B691 /* XoBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0EC8981A042C2C0003B691 /* BoardTests.swift in Sources */,
 				ED0EC88E1A0428AE0003B691 /* PocketXOTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
